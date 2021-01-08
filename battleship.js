@@ -19,3 +19,7 @@ var guesses = 0;
 // Variable to keep track of whether or not the ship is sunk
 
 var isSunk = false;
+
+while (isSunk == false) {
+    guess = prompt("Ready, aim, fire! (enter a number from 0 to 6):");
+}
