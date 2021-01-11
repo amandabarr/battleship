@@ -1,8 +1,10 @@
 // Three variables to hold the location of each part of the battlship (battleship is three cells long)
 
-var location1 = 3;
-var location2 = 4;
-var location3 = 5;
+randomLoc = Math.floor(Math.random() * 5);
+
+var location1 = randomLoc;
+var location2 = location1 + 1;
+var location3 = location2 + 1;
 
 // Variable to hold the user's current guess
 
